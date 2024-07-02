@@ -10,6 +10,8 @@ import SwiftData
 
 @main
 struct P2P_sampleApp: App {
+    @StateObject private var appState = AppState()
+
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -25,9 +27,15 @@ struct P2P_sampleApp: App {
 
     var body: some Scene {
         WindowGroup {
-//            ContentView()
             ConnectionView()
+                .environmentObject(appState)
         }
-        .modelContainer(sharedModelContainer)
+        .onChange(of: ScenePhase.active) {
+            if ScenePhase.active == .active {
+                appState.isActive = true
+            } else {
+                appState.isActive = false
+            }
+        }
     }
 }

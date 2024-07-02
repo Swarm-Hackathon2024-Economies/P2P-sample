@@ -17,6 +17,7 @@
 		A10275882C21D251001D942D /* P2P_sampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10275872C21D251001D942D /* P2P_sampleUITestsLaunchTests.swift */; };
 		A10275952C21DA3C001D942D /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10275942C21DA3C001D942D /* ConnectionView.swift */; };
 		A10275972C21DA95001D942D /* MultipeerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10275962C21DA95001D942D /* MultipeerSession.swift */; };
+		A16A3B3C2C3448F100F8D2DF /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16A3B3B2C3448F100F8D2DF /* AppState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		A10275872C21D251001D942D /* P2P_sampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2P_sampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A10275942C21DA3C001D942D /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
 		A10275962C21DA95001D942D /* MultipeerSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerSession.swift; sourceTree = "<group>"; };
+		A16A3B3B2C3448F100F8D2DF /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				A10275682C21D24F001D942D /* P2P_sampleApp.swift */,
+				A16A3B3B2C3448F100F8D2DF /* AppState.swift */,
 				A102756A2C21D24F001D942D /* ContentView.swift */,
 				A102756C2C21D24F001D942D /* Item.swift */,
 				A102756E2C21D250001D942D /* Assets.xcassets */,
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A16A3B3C2C3448F100F8D2DF /* AppState.swift in Sources */,
 				A102756B2C21D24F001D942D /* ContentView.swift in Sources */,
 				A102756D2C21D24F001D942D /* Item.swift in Sources */,
 				A10275972C21DA95001D942D /* MultipeerSession.swift in Sources */,
@@ -359,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -416,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -434,7 +438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"P2P-sample/Preview Content\"";
-				DEVELOPMENT_TEAM = LANULV72W5;
+				DEVELOPMENT_TEAM = 7HK327L86H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -463,7 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"P2P-sample/Preview Content\"";
-				DEVELOPMENT_TEAM = LANULV72W5;
+				DEVELOPMENT_TEAM = 7HK327L86H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
